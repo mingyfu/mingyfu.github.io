@@ -27,5 +27,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a post-doctoral research fellow at Rotman School of Management, University of Toronto, advised by Professor [Ming Hu](http://individual.utoronto.ca/minghu/). Before this, I completed my Ph.D. at the Department of Industrial Systems Engineering and Management, National University of Singapore, where I was advised by Assistant Professor [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home). 
+I am currently a postdoctoral research fellow at the Rotman School of Management, University of Toronto, advised by Professor [Ming Hu](http://individual.utoronto.ca/minghu/). Before this, I completed my Ph.D. at the Department of Industrial Systems Engineering and Management, National University of Singapore, where I was advised by Assistant Professor [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home). 
 
