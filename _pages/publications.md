@@ -8,20 +8,27 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-## **Research Papers**
-**Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application** [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3885663) <br>
-Mingyang Fu, Xiaobo Li, Lianmin Zhang <br>
-Manufacturing & Service Operations Management
+## <span style="font-size: 22px; font-weight: bold;">Research Papers</span>
 
-**Robust Pricing with Randomization: A Multi-Criteria Perspective**  [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478) <br>
-Mingyang Fu, Xiaobo Li, Napat Rujeerapaiboon <br>
-Accepted as an one-page abstract at The Twenty-Sixth ACM Conference on Economics and Computation (EC'25) <br>
-Working paper
+### <span style="font-size: 18px; font-weight: bold;">Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application</span> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3885663)  
+<span style="font-style: italic;">Mingyang Fu, Xiaobo Li, Lianmin Zhang</span>  
+<span style="color: gray;">Manufacturing & Service Operations Management</span>  
 
-**Robust Pricing with Randomization: A Multi-Criteria Perspective**  [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5132337) <br>
-Mingyang Fu, Hongyuan Lin, Chenyu Xue <br>
-Working paper
+---
 
-**Fourth-order Marginal Moment Model: Reformulations and Applications**  [[pdf]](https://optimization-online.org/2024/02/fourth-order-marginal-moment-model-reformulations-and-applications/) <br>
-Mingyang Fu, Xiaobo Li <br>
-Working paper
+### <span style="font-size: 18px; font-weight: bold;">Robust Pricing with Randomization: A Multi-Criteria Perspective</span> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)  
+<span style="font-style: italic;">Mingyang Fu, Xiaobo Li, Napat Rujeerapaiboon</span>  
+<span style="color: gray;">Accepted (1-page abstract), The 26th ACM Conference on Economics and Computation (EC'25)  
+Working Paper</span>  
+
+---
+
+### <span style="font-size: 18px; font-weight: bold;">Robust Pricing with Randomization: A Multi-Criteria Perspective</span> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5132337)  
+<span style="font-style: italic;">Mingyang Fu, Hongyuan Lin, Chenyu Xue</span>  
+<span style="color: gray;">Working Paper</span>  
+
+---
+
+### <span style="font-size: 18px; font-weight: bold;">Fourth-order Marginal Moment Model: Reformulations and Applications</span> [[pdf]](https://optimization-online.org/2024/02/fourth-order-marginal-moment-model-reformulations-and-applications/)  
+<span style="font-style: italic;">Mingyang Fu, Xiaobo Li</span>  
+<span style="color: gray;">Working Paper</span>  
