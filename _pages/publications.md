@@ -8,8 +8,6 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-## <span style="font-size: 22px; font-weight: bold;">Research Papers</span>
-
 ### <span style="font-size: 18px; font-weight: bold;">Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3885663) </span> 
 <span style="font-style: italic;"><b>Mingyang Fu</b>, Xiaobo Li, Lianmin Zhang</span>  
 <span style="color: gray;">Manufacturing & Service Operations Management</span>  
