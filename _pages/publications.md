@@ -18,8 +18,8 @@ nav_order: 2
 
 ### <span style="font-size: 18px; font-weight: bold;">Robust Pricing with Randomization: A Multi-Criteria Perspective</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)</span>  
 <span style="font-style: italic;"><b>Mingyang Fu</b>, Xiaobo Li, Napat Rujeerapaiboon</span>  
-<span style="color: gray;">Accepted (1-page abstract), The 26th ACM Conference on Economics and Computation (EC'25)  
-Working Paper</span>  
+<span style="color: gray;">Accepted (one-page abstract), The 26th ACM Conference on Economics and Computation (EC'25)  
+Working Paper </span>  
 
 ---
 
