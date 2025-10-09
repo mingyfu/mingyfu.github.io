@@ -14,9 +14,9 @@ nav_order: 2
 
 ---
 
-### <span style="font-size: 18px; font-weight: bold;">Optimal Competitive Ratio in Opaque Sales</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)</span>  
+### <span style="font-size: 18px; font-weight: bold;">Optimal Competitive Ratio for Multi-Item Unit-Demand Mechanism Design</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)</span>  
 <span style="font-style: italic;"><b>Mingyang Fu</b>, Xiaobo Li, Napat Rujeerapaiboon</span>  
-<span style="color: gray;">One-page abstract, EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</span><br>
+<span style="color: gray;">One-page abstract (previous title "Optimal Competitive Ratio in Opaque Sales"), EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</span><br>
 <span style="color: gray;">Working Paper </span>  
 
 ---
