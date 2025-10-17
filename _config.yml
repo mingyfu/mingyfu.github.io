@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mingyang Fu (傅明阳)# the website title (if blank, full name will be used instead)
+title: Mingyang Fu (傅明阳)
+# the website title (if blank, full name will be used instead)
 first_name: Mingyang
 middle_name:
 last_name: Fu
