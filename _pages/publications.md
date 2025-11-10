@@ -22,7 +22,8 @@ nav_order: 2
 
 ### <span style="font-size: 18px; font-weight: bold;">Optimal Competitive Ratio for Multi-Item Unit-Demand Mechanism Design</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)</span>  
 <span ><b>Mingyang Fu</b>, [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home), [Napat Rujeerapaiboon](https://sites.google.com/view/napatrujeerapaiboon/home)</span>  
-<span style="color: gray;"> <i>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</i> (2025) (previous title "Optimal Competitive Ratio in Opaque Sales")</span><br>
+<span style="color: gray;"> <i>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</i> (2025)</span><br>
+<span style="color: gray;"> (previously titled "Optimal Competitive Ratio in Opaque Sales")</span><br>
 <span style="color: gray;">Under Review </span>  
 
 ---
