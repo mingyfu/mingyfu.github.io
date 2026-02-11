@@ -24,7 +24,8 @@ nav_order: 2
 <span ><b>Mingyang Fu</b>, [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home), [Napat Rujeerapaiboon](https://sites.google.com/view/napatrujeerapaiboon/home)</span>  
 <span style="color: gray;"> <i>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</i> (2025)</span><br>
 <span style="color: gray;"> (previously titled "Optimal Competitive Ratio in Opaque Sales")</span><br>
-<span style="color: gray;">Under Review </span>  
+<span style="color: gray;"> Major Revision at <i>Management Science</i> </span>  
+
 
 ---
 
