@@ -26,6 +26,11 @@ nav_order: 2
 <span style="color: gray;"> (previously titled "Optimal Competitive Ratio in Opaque Sales")</span><br>
 <span style="color: gray;"> Major Revision at <i>Management Science</i> </span>  
 
+---
+
+### <span style="font-size: 18px; font-weight: bold;">Capacitated Spatiotemporal Matching</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/abstract=6418618) </span>   
+<span ><b>Mingyang Fu</b>, [Ming Hu](http://individual.utoronto.ca/minghu/)</span>  
+<span style="color: gray;">Working Paper</span>  
 
 ---
 
