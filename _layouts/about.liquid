@@ -1,45 +1,118 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+<div class="post about-page">
+  <header class="post-header about-hero">
+    <div class="about-identity">
+      <section class="about-primary">
+        <div class="about-name-lockup">
+          <h1 class="post-title">
+            {% if page.display_name %}
+              {% assign display_name_parts = page.display_name | split: ' ' %}
+              <span class="name-line name-given">{{ display_name_parts[0] }}</span>
+              <span class="name-line name-family">{{ display_name_parts | last }}</span>
+            {% elsif site.title == 'blank' %}
+              <span class="name-line name-given">{{ site.first_name }}</span>
+              <span class="name-line name-family">{{ site.last_name }}</span>
+            {% else %}
+              <span class="name-line name-given">{{ site.title }}</span>
+            {% endif %}
+          </h1>
+          {% if page.chinese_name %}
+            {% assign native_name = page.chinese_name | join: '' %}
+            <p class="about-native-name">
+              <span>{{ native_name }}</span>
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="about-intro-block">
+          {% if page.profile and page.profile.image %}
+            <div class="profile about-profile">
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) 170px, (min-width: 768px) 16vw, 150px{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+              {% if page.profile.more_info %}
+                <div class="more-info">{{ page.profile.more_info }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <div class="about-summary">
+            {{ content }}
+          </div>
+        </div>
+      </section>
+
+      {% comment %}
+        Resume block kept for future use.
+
+        <aside class="about-profile-column" aria-label="Profile details">
+          <div class="about-credentials">
+            {% if page.employment %}
+              <section class="credential-section">
+                <h2>Employment</h2>
+                <div class="credential-items">
+                  {% for item in page.employment %}
+                    <article class="credential-entry">
+                      <p class="credential-meta">{{ item.dates }} / {{ item.location }}</p>
+                      <p class="credential-primary">{{ item.institution }} <span>{{ item.unit }}</span></p>
+                      <p class="credential-line credential-role">{{ item.role }}</p>
+                      {% if item.people %}
+                        <p class="credential-line credential-people">
+                          {{ item.people_label }}
+                          {% for person in item.people %}
+                            {% if person.url %}
+                              <a href="{{ person.url }}">{{ person.name }}</a>{% unless forloop.last %}, {% endunless %}
+                            {% else %}
+                              {{ person.name }}{% unless forloop.last %}, {% endunless %}
+                            {% endif %}
+                          {% endfor %}
+                        </p>
+                      {% endif %}
+                    </article>
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
+
+            {% if page.education %}
+              <section class="credential-section">
+                <h2>Education</h2>
+                <div class="credential-items">
+                  {% for item in page.education %}
+                    <article class="credential-entry">
+                      <p class="credential-meta">{{ item.dates }} / {{ item.location }}</p>
+                      <p class="credential-primary">{{ item.institution }} <span>{{ item.unit }}</span></p>
+                      <p class="credential-line credential-role">{{ item.degree }}</p>
+                      {% if item.people %}
+                        <p class="credential-line credential-people">
+                          {{ item.people_label }}
+                          {% for person in item.people %}
+                            {% if person.url %}
+                              <a href="{{ person.url }}">{{ person.name }}</a>{% unless forloop.last %}, {% endunless %}
+                            {% else %}
+                              {{ person.name }}{% unless forloop.last %}, {% endunless %}
+                            {% endif %}
+                          {% endfor %}
+                        </p>
+                      {% endif %}
+                    </article>
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
+          </div>
+        </aside>
+      {% endcomment %}
+    </div>
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
-
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -66,9 +139,13 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
+      <div class="social about-links">
+        {% if site.data.socials.email %}
+          <a href="mailto:{{ site.data.socials.email | encode_email }}">Email</a>
+        {% endif %}
+        {% if site.data.socials.scholar_userid %}
+          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+        {% endif %}
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}

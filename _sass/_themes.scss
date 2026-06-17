@@ -6,20 +6,34 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-bg-color: #fbfaf7;
+  --global-code-bg-color: #e8f0f2;
+  --global-text-color: #111111;
+  --global-strong-text-color: #000000;
+  --global-text-color-light: #666a6d;
+  --global-weak-text-color: #8a8e8e;
+  --global-theme-color: #245b6b;
+  --global-hover-color: #173e49;
+  --global-active-color: #0e2f38;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #111111;
+  --global-footer-text-color: #dadad6;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #666a6d;
+  --global-divider-color: #dadad6;
+  --global-card-bg-color: #fdfcfa;
   --global-highlight-color: #{$red-color-dark};
+  --global-subtle-bg-color: #e8f0f2;
+  --global-selection-bg-color: #dcecef;
+  --global-focus-ring-color: #75afc0;
+  --swiss-paper-color: #fbfaf7;
+  --swiss-panel-color: #fdfcfa;
+  --swiss-accent-blue: #245b6b;
+  --swiss-accent-yellow: #d8c468;
+  --swiss-accent-orange: #8b5f4d;
+  --swiss-rule-color: #111111;
+  --swiss-meta-color: #666a6d;
+  --swiss-grid-color: #f0f1ee;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -78,19 +92,33 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-bg-color: #151617;
+  --global-code-bg-color: #182a30;
+  --global-text-color: #f3f2ee;
+  --global-strong-text-color: #ffffff;
+  --global-text-color-light: #b9bcbb;
+  --global-weak-text-color: #858c8d;
+  --global-theme-color: #8fc3d2;
+  --global-hover-color: #b9dce6;
+  --global-active-color: #d3ecf2;
+  --global-hover-text-color: #151617;
+  --global-footer-bg-color: #151617;
+  --global-footer-text-color: #b9bcbb;
+  --global-footer-link-color: #f3f2ee;
+  --global-distill-app-color: #b9bcbb;
+  --global-divider-color: #343638;
+  --global-card-bg-color: #1b1d1f;
+  --global-subtle-bg-color: #182a30;
+  --global-selection-bg-color: #24424b;
+  --global-focus-ring-color: #8fc3d2;
+  --swiss-paper-color: #151617;
+  --swiss-panel-color: #1b1d1f;
+  --swiss-accent-blue: #8fc3d2;
+  --swiss-accent-yellow: #d8c468;
+  --swiss-accent-orange: #b88974;
+  --swiss-rule-color: #e7e6e0;
+  --swiss-meta-color: #b9bcbb;
+  --swiss-grid-color: #202224;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},

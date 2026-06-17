@@ -2,38 +2,110 @@
 layout: page
 permalink: /research/
 title: Research
-description: #publications by categories in reversed chronological order. 
+#description: Selected work in operations research, operations management, and optimization.
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-### <span style="font-size: 18px; font-weight: bold;">Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3885663) </span> 
-<span ><b>Mingyang Fu</b>, [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home), [Lianmin Zhang](https://lianminzhang2021.github.io/)</span>  
-<span style="color: gray;"> <i>Manufacturing & Service Operations Management</i> (2024)</span>  
 
----
+<div class="research-list">
+  <article class="research-item">
+    <div class="research-meta">
+      <span>2024,MSOM</span>
+    </div>
+    <div class="research-body">
+      <h2>Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="https://sites.google.com/site/lixiaobohome/home">Xiaobo Li</a>,
+        <a href="https://lianminzhang2021.github.io/">Lianmin Zhang</a>
+      </p>
+      <p class="research-venue"><em>Manufacturing &amp; Service Operations Management</em></p>
+    </div>
+    <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3885663">SSRN</a>
+  </article>
 
-### <span style="font-size: 18px; font-weight: bold;">Robust Pricing with Randomization: A Multi-Criteria Perspective</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5132337)  </span>  
-<span ><b>Mingyang Fu</b>, [Hongyuan Lin](https://hongyuan-lin.github.io/), [Chenyu Xue](https://sites.google.com/view/chenyuxue/home)</span>  
-<span style="color: gray;"> Major Revision at <i>Operations Research</i> </span>  
+  <article class="research-item">
+    <div class="research-meta">
+      <span>Under Revision</span>
+    </div>
+    <div class="research-body">
+      <h2>Robust Pricing with Randomization: A Multi-Criteria Perspective</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="https://hongyuan-lin.github.io/">Hongyuan Lin</a>,
+        <a href="https://sites.google.com/view/chenyuxue/home">Chenyu Xue</a>
+      </p>
+      <p class="research-venue">Major Revision at <em>Operations Research</em></p>
+    </div>
+    <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5132337">SSRN</a>
+  </article>
 
----
+  <article class="research-item">
+    <div class="research-meta">
+      <span>2025,EC</span>
+      <span>Under Revision</span>
+    </div>
+    <div class="research-body">
+      <h2>Optimal Competitive Ratio for Multi-Item Unit-Demand Mechanism Design</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="https://sites.google.com/site/lixiaobohome/home">Xiaobo Li</a>,
+        <a href="https://sites.google.com/view/napatrujeerapaiboon/home">Napat Rujeerapaiboon</a>
+      </p>
+      <p class="research-venue"><em>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</em></p>
+      <p class="research-note">Previously titled "Optimal Competitive Ratio in Opaque Sales"</p>
+      <p class="research-venue">Major Revision at <em>Management Science</em></p>
+    </div>
+    <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478">SSRN</a>
+  </article>
 
-### <span style="font-size: 18px; font-weight: bold;">Optimal Competitive Ratio for Multi-Item Unit-Demand Mechanism Design</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478)</span>  
-<span ><b>Mingyang Fu</b>, [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home), [Napat Rujeerapaiboon](https://sites.google.com/view/napatrujeerapaiboon/home)</span>  
-<span style="color: gray;"> <i>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</i> (2025)</span><br>
-<span style="color: gray;"> (previously titled "Optimal Competitive Ratio in Opaque Sales")</span><br>
-<span style="color: gray;"> Major Revision at <i>Management Science</i> </span>  
+  <article class="research-item">
+    <div class="research-meta">
+      <span>Working Paper</span>
+    </div>
+    <div class="research-body">
+      <h2>Capacitated Spatiotemporal Matching</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="http://individual.utoronto.ca/minghu/">Ming Hu</a>
+      </p>
+    </div>
+    <a class="research-link" href="https://papers.ssrn.com/abstract=6418618">SSRN</a>
+  </article>
 
----
+  <article class="research-item">
+    <div class="research-meta">
+      <span>Working Paper</span>
+    </div>
+    <div class="research-body">
+      <h2>Strategic Buying Agents</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="http://individual.utoronto.ca/minghu/">Ming Hu</a>
+      </p>
+    </div>
+    <a class="research-link" href="https://papers.ssrn.com/abstract=6898378">SSRN</a>
+  </article>
 
-### <span style="font-size: 18px; font-weight: bold;">Capacitated Spatiotemporal Matching</span> <span style="font-size: 12px;">[[ssrn]](https://papers.ssrn.com/abstract=6418618) </span>   
-<span ><b>Mingyang Fu</b>, [Ming Hu](http://individual.utoronto.ca/minghu/)</span>  
-<span style="color: gray;">Working Paper</span>  
 
----
-
-### <span style="font-size: 18px; font-weight: bold;">Fourth-order Marginal Moment Model: Reformulations and Applications</span> <span style="font-size: 12px;">[[optimization-online]](https://optimization-online.org/2024/02/fourth-order-marginal-moment-model-reformulations-and-applications/) </span>   
-<span ><b>Mingyang Fu</b>, [Xiaobo Li](https://sites.google.com/site/lixiaobohome/home)</span>  
-<span style="color: gray;">Working Paper</span>  
+  <article class="research-item">
+    <div class="research-meta">
+      <span>Working Paper</span>
+    </div>
+    <div class="research-body">
+      <h2>Fourth-order Marginal Moment Model: Reformulations and Applications</h2>
+      <p class="research-authors">
+        <strong>Mingyang Fu</strong>,
+        <a href="https://sites.google.com/site/lixiaobohome/home">Xiaobo Li</a>
+      </p>
+    </div>
+    <a
+      class="research-link"
+      href="https://optimization-online.org/2024/02/fourth-order-marginal-moment-model-reformulations-and-applications/"
+    >
+      Optimization Online
+    </a>
+  </article>
+</div>

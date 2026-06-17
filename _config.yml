@@ -48,7 +48,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: true
 posts_in_search: false
@@ -56,8 +56,6 @@ bib_search: true
 
 # Dimensions
 max_width: 930px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org

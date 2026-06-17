@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Helvetica Neue", "Neue Haas Grotesk Text", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 
   h1,
   h2,
@@ -13,6 +15,7 @@ body {
   h4,
   h5,
   h6 {
+    font-family: "Helvetica Neue", "Neue Haas Grotesk Text", Helvetica, Arial, sans-serif;
     scroll-margin-top: 66px;
   }
 }
