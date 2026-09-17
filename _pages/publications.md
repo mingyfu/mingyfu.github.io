@@ -37,7 +37,7 @@ nav_order: 2
         <a href="https://hongyuan-lin.github.io/">Hongyuan Lin</a>,
         <a href="https://sites.google.com/view/chenyuxue/home">Chenyu Xue</a>
       </p>
-      <p class="research-venue">Major Revision at <em>Operations Research</em></p>
+      <p class="research-venue">Major Revision, <em>Operations Research</em></p>
     </div>
     <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5132337">SSRN</a>
   </article>
@@ -56,7 +56,7 @@ nav_order: 2
       </p>
       <p class="research-venue"><em>EC'25: Proceedings of the 26th ACM Conference on Economics and Computation</em></p>
       <p class="research-note">Previously titled "Optimal Competitive Ratio in Opaque Sales"</p>
-      <p class="research-venue">Major Revision at <em>Management Science</em></p>
+      <p class="research-venue">Major Revision, <em>Management Science</em></p>
     </div>
     <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130478">SSRN</a>
   </article>
@@ -71,6 +71,7 @@ nav_order: 2
         <strong>Mingyang Fu</strong>,
         <a href="http://individual.utoronto.ca/minghu/">Ming Hu</a>
       </p>
+      <p class="research-venue">Reject and Resubmit, <em>Operations Research</em></p>
     </div>
     <a class="research-link" href="https://papers.ssrn.com/abstract=6418618">SSRN</a>
   </article>
