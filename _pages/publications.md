@@ -12,7 +12,7 @@ nav_order: 2
 <div class="research-list">
   <article class="research-item">
     <div class="research-meta">
-      <span>2024,MSOM</span>
+      <span>2024, MSOM</span>
     </div>
     <div class="research-body">
       <h2>Distributionally Robust Newsvendor under Stochastic Dominance with a Feature-Based Application</h2>
@@ -44,7 +44,7 @@ nav_order: 2
 
   <article class="research-item">
     <div class="research-meta">
-      <span>2025,EC</span>
+      <span>2025, EC</span>
       <span>Under Revision</span>
     </div>
     <div class="research-body">
